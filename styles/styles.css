@@ -83,3 +83,25 @@ footer a {
     position: relative;
     left: 40rem;
 }
+
+#media-query {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #main-header {
+        display: none;
+    }
+
+    main {
+        display: none;
+    }
+
+    #media-query {
+        display: block;
+        position: relative;
+        top: 20rem;
+        text-align: center;
+    }
+
+}
